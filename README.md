@@ -15,9 +15,9 @@ Things To Note:
 2. Please connect to your MySQL server locally, as there may be credential issues: username and password
 
 After connecting the this codebase to your MySQL server in your localhost, please change the credentials in the application.properties folder accordingly
-spring.datasource.url=jdbc:mysql://localhost:3306/BookInventory
-spring.datasource.username=root
-spring.datasource.password=Mysql123
+1. spring.datasource.url=jdbc:mysql://localhost:3306/BookInventory
+2. spring.datasource.username=root
+3. spring.datasource.password=Mysql123
 
 SQL Component:
 The SQL Queries for the SQL Assignment - 6 Questions can be found in the SQL Queries folder.
