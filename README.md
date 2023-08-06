@@ -14,10 +14,10 @@ Steps to Setup:
 1. Run the DemoApplication in IntelliJ IDEA
 2. Open a browser and enter the URL: http://localhost:8080/api/v1/book
 3. Open the generated-requests.http file
-   a. Run the POST request - to add book \n
-   b. Run the DELETE request - to remove book \n
-   c. Run the PUT request - to update quantity of book \n
-   d. (Refresh the browser tab after running each request to see the changes made) \n
+4. Run the POST request - to add book
+5. Run the DELETE request - to remove book
+6. Run the PUT request - to update quantity of book
+7. (Refresh the browser tab after running each request to see the changes made)
 
 Things To Note for Setup:
 1. This repository only contains the Spring Boot and Java code
