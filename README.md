@@ -28,10 +28,15 @@ After connecting the this codebase to your MySQL server in your localhost, pleas
 2. spring.datasource.username=root
 3. spring.datasource.password=Mysql123
 
-SQL Component:
-The SQL Queries for the SQL Assignment - 6 Questions can be found in the SQL Queries folder.
-
 Stack:
 1. Java 17 on IntelliJ
 2. Spring Boot
 3. MySQL 8.0
+
+SQL Component:
+The SQL Queries for the SQL Assignment - 6 Questions can be found in the SQL Queries folder.
+
+SQL Component Setup:
+1. Run the create_table_autodesk.sql - To initialize an empty table
+2. Run the data_insertion_script.sql - To populate with mock data
+3. There are 6 queries written in the Autodesk queries file - To answer the 6 questions
