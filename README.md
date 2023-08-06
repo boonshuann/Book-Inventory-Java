@@ -1,7 +1,7 @@
 # Book-Inventory-demo
 
 JAVA Component:
-This Github Repository is to demonstrate a simple Book Inventory application using Spring Boot and Java, as well as MySQL as the database. This code is developed on IntelliJ IDEA and I recommend you to do so too.
+This Github Repository is to demonstrate a simple Book Inventory application using Spring Boot and Java, as well as MySQL as the database. This code is developed on IntelliJ IDEA and I recommend you to do so too. 
 
 This application serves as a Book Inventory where you can:
 1. Add new books
@@ -10,7 +10,14 @@ This application serves as a Book Inventory where you can:
 4. Retrieve the quantity in stock of a given book
 5. List all books in the inventory
 
-Things To Note:
+Steps to Setup:
+1. Run the DemoApplication in IntelliJ IDEA
+2. Open the generated-requests.http file
+   a. Run the POST request - to add book
+   b. Run the DELETE request - to remove book
+   c. Run the PUT request - to update quantity of book
+
+Things To Note for Setup:
 1. This repository only contains the Spring Boot and Java code
 2. Please connect to your MySQL server locally, as there may be credential issues: username and password
 
@@ -21,3 +28,8 @@ After connecting the this codebase to your MySQL server in your localhost, pleas
 
 SQL Component:
 The SQL Queries for the SQL Assignment - 6 Questions can be found in the SQL Queries folder.
+
+Stack:
+1. Java 17 on IntelliJ
+2. Spring Boot
+3. MySQL 8.0
